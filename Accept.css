@@ -1,0 +1,72 @@
+.TechStd{
+    position:absolute;
+    min-height:410px;
+    width:500px;
+    /* border: 5px solid red; */
+    animation : animation;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    background:white;
+    box-shadow: 3px 4px 13px 0px;
+    /* display:flex;
+    justify-content: center;
+    align-items: center; */
+}
+@keyframes animation{
+    from{
+        top:-300px;
+        left:510px;
+    }
+    to{
+        top:180px;
+        left:510px;
+    }
+}
+.td-pop-up-tech-std{
+    height:300px;
+    width:300px;
+    text-align: center;
+
+}
+.td-pop-up-tech-std button{
+    height:35px;
+    width:171px;
+    margin-top: 70px;
+    border: none;
+}
+.td-pop-up-tech-std div{
+    font-size: 39px;
+    margin-top: 98px;
+}
+.td-pop-up-tech-std button:hover{
+    height:39px;
+    width:175px;
+}
+.cross{
+    font-size: 17px;
+    font-weight: bold;
+    position: relative;
+    background: red;
+    left: 443px;
+    height: 43px;
+    width: 50px;
+    color: white;
+    border: none;
+}
+.Add_Teacher{
+    color:white;
+    background-color: green;
+}
+.Add_Teacher:hover{
+    background-color: rgb(12, 80, 12);
+}
+.Add_Student{
+    color:white;
+    background: rgb(0, 123, 255);
+}
+.Add_Student:hover{
+    background: blue;
+}
+.hidden-uid{
+    display: none;
+}

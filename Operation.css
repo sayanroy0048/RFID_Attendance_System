@@ -1,0 +1,136 @@
+#Operation{
+    background: rgb(176, 176, 231);
+    color:white;
+}
+ *{
+    box-sizing: border-box;
+
+}
+.nav-bar{ 
+    margin-left: 209px;
+    padding-left: 20px;
+    height: 53px;
+    width: 1307px;
+    border: 1px solid black;
+    font-size: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background: black;
+    
+}
+.nav-bar button {
+    height: 51px;
+    width: 104px;
+    font-size: 20;
+    border:none;
+    color:white;
+    background-color: black;
+    cursor: pointer;
+}
+.nav-bar button:hover{
+    background-color: white;
+    color:black;
+}
+
+/*
+.table{
+    margin-left:370px;
+    width:1000px;
+    height:75px;
+    border:none;
+    
+}
+.table th{
+    height:35px;
+    background-color: #3e2f84;
+    color:white;
+    
+} */
+
+/* .table,td,th{ */
+    /* border:0.1px solid black; */
+    /* border-collapse:collapse;
+    text-align: center;
+} */
+/* .table td{
+    height:36px;
+}
+.td-button{
+    width:157px;
+}
+.table button{
+    height:24px;
+    border-radius: 5px;
+}
+.table .accept{
+    background: green;
+    color: white;
+    border:none;
+}
+.table .discart{
+    background-color: red;
+    color: white;
+    border:none;
+}
+.div-reload{
+    margin-left: 209px;
+    border:none;
+}
+.reload svg
+{
+    margin-left: 28px;
+    color:white;
+}
+.reload{
+    height: 60px;
+    width: 107px;
+    background-color: rgb(5, 147, 41);
+    color: white;
+    border:none;
+}
+.reload:hover{
+    background-color: rgb(7, 101, 7);
+}*/
+button{
+    cursor: pointer;
+}
+/*
+.temp-heading{
+    margin-left: 209px;
+    height:35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    margin-bottom: 30px;
+    background-color: rgb(39, 4, 89);
+    color: white;
+    font-size: 20;
+}
+.white{
+    background:rgb(255, 255, 255);
+}
+.gray{
+    background-color: rgb(237, 208, 240);
+}
+.bt-white{
+    background-color: white;
+    color:black;
+}
+.no-data{
+    margin-left:370px;
+    width:1000px;
+    height:200px;
+    border:none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    color:red;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px 1px ;
+}
+.hidden-input-box{
+    display: none;
+} */

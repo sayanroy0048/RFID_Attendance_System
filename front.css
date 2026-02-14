@@ -1,0 +1,199 @@
+*{
+    box-sizing: border-box;
+}
+.img{
+    position: relative;
+    background-image:url(student1.jpg)  ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:500px;
+    width:100%;
+    /* border:1px solid black; */
+    animation: change 10s infinite ease-in;
+    
+    
+}
+.img::after{
+    content:'';
+    position:absolute;
+    width:100%;
+    height:500px;
+    top:0px;
+    left:0px;
+    background-color: rgba(0,0,0,0.22);
+
+}
+.front-content{
+    position: absolute;
+    display:flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    top:90px;
+    left:0px;
+    width:100%;
+    min-height:50px;
+    /* border:1px solid white; */
+   
+   
+}
+.heading{
+    /* border:1px solid red; */
+    width:100%;
+    display: flex;
+    height:40px;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    color:rgb(255, 255, 255);
+}
+.text{
+    /* border: 5px solid red; */
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    color:white;
+    font-size: 21px;
+    min-height:200px;
+}
+.left-paragraph{
+    height:150px;
+    width:250px;
+    border:none;
+    /* word-wrap: break-word; */
+    display: flex;
+    justify-content: center;
+    margin-right:20px;
+    padding-left:10px;
+    border-radius: 10px;;
+    background-color: black;
+    border-radius:3px;
+    opacity: 0.38;
+    font-weight: bold;
+}
+.right-paragraph{
+    height:150px;
+    width:250px;
+    /* border:1px solid green; */
+    /* word-wrap: break-word; */
+    display: flex;
+    justify-content: center;
+    padding-left:10px;
+    background-color: black;
+    opacity:0.38;
+    border-radius:3px;
+    font-weight: bold;
+}
+.button{
+    /* border : 1px solid white; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 567px;
+    padding-right: 559px;
+    min-height:90px;
+}
+
+.Admin{
+    border: none;
+    color :white;
+    background-color: rgb(251, 129, 7);
+    /* border-radius: 5px; */
+    font-size:18px;
+    font-weight: bolder;
+    width:130px;
+    height:34px;
+    
+}
+.Parent{
+    border: none;
+    color:white;
+    background-color: rgb(10, 255, 100);
+    /* border-radius: 5px; */
+    font-size:18px;
+    font-weight: bolder;
+    width:130px;
+    height: 34px;
+}
+.Admin:hover{
+    cursor: pointer;
+    background-color: rgb(255, 64, 0);
+    /* width:81px;
+    height:44px; */
+}
+.Parent:hover{
+    /* width:81px;
+    height:44px; */
+    cursor: pointer;
+    background-color: rgb(9, 138, 9);
+}
+.templete{
+    min-height:320px;
+    /* border:1px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 300px;
+    padding-right: 300px;
+    justify-content: space-between;
+    margin-top: 30px;
+    transition :5s;
+}
+
+.templete img:hover{
+    cursor: pointer;
+    height:250px;
+    width:300px;
+} 
+.about{
+    /* border:1px solid red; */
+    padding-left:20px;
+    padding-right:20px;
+    background-color: bisque;
+}
+.about p{
+    font-size: 30px;
+    color: red;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.about-first-p{
+    position :relative;
+    top:-21px;
+    left:0px;
+    display: inline-block;
+    /* border: 1px solid blue; */
+    height: 158px;
+    width: 1185px;
+}
+.student5{
+    height:173px;
+    width:210px;
+}
+.remaining-paragraph-inside-about{
+    position :relative;
+    top:-73px;
+    left:10px;
+}
+@keyframes change{
+    0%{
+        
+        background-image:url(student2.jpg) ;
+    }
+    25%{
+        background-image:url(student4.jpg) ; 
+    }
+    50%{
+        background-image:url(student5.jpg) ; 
+
+    }
+    75%{
+        background-image:url(student1.jpg) ; 
+    }
+    100%{
+        background-image:url(student2.jpg) ; 
+    }
+    
+
+    }

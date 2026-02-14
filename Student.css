@@ -1,0 +1,173 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background:#fff6f6;
+}
+#Student_table .st_photo_td{
+    text-align: center;
+    width:301px;
+}
+#Student_table .st_name_td{
+    /* text-align: center; */
+    font-size: 18px;
+    font-weight: bolder;
+    border-bottom: 2px solid rgb(207, 207, 207);
+    
+}
+.student_details{
+    /* border:1px solid black; */
+    min-height:0px;
+    margin-top:50px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: row;
+}
+#Student_table .label{
+   font-weight: bold;
+}
+#Student_table td{
+    border:none;
+    text-align: center;
+    
+}
+#Student_table
+{
+    border-radius: 8px;
+    width:338px;
+    margin-left: 230px;
+    min-height:0px;
+    background-color: #ebf0ea;
+    border:none;
+    /* border: 1px solid black; */
+}
+#Student{
+    background-color: rgb(46, 46, 129);
+    color: white;
+}
+.st_photo_td img{
+    border-radius: 50%;
+    border: none;
+    width: 93px;
+    height: 99px;
+    margin: 5px 0px -13px 0px;
+
+}
+.right-lable{
+    margin-left: 30px;
+    border: none;
+    width: 820px;
+    height: 231px;
+    border-radius: 8px;
+    background-color: #e1d1d1;
+}
+.right-lable td{
+    border:none;
+}
+.right-lable label{
+    margin-left:13px;
+}
+.right-table-lable{
+    font-weight: bold;
+}
+.st-button-form{
+    position: relative;
+    top: 12px;
+    left: 31px;
+    border:none;
+    height: 52px;
+    width: 819px;
+    border-radius: 5px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding-left:574px;
+    background-color: white;
+}
+.st-button-form button{
+    margin-top: 20px;
+    height: 33px;
+    width: 108px;
+    border-radius: 3px;
+    border:none;
+    cursor: pointer;
+
+}
+
+.st-button-form input{
+    display: none;
+}
+.St_delete{
+    background-color: red;
+    color: white;
+}
+.St_delete:hover{
+    background-color:rgb(255, 102, 0) ;
+}
+.St_update{
+    background-color: blue;
+    color: white;
+}
+.St_update:hover{
+    background-color:rgb(11, 11, 113) ;
+}
+.box-shadow{
+    box-shadow: 0px 0px 1px 0px;
+}
+.st-button-form svg{
+    margin-right: -3px;
+    margin-left: -18px;
+    margin-top: -3px;
+    color: white;
+}
+.right-table-lable svg{
+    margin-left: -9px;
+    margin-right: 0px;
+    color:black;
+}
+.search-bar{
+    height: 50px;
+    width: 1300px;
+    margin-left: 209px;
+    border:none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.search-bar input{
+    width: 1069px;
+    height: 40px;
+    border-radius: 13px;
+    border:1px solid rgb(237, 9, 96);
+    padding-left: 20px;
+    outline: none;
+}
+.search-bar button{
+    position: relative;
+    left: -75px;
+    height: 40px;
+    border-bottom-right-radius: 9px;
+    border-top-right-radius: 12px;
+    border: 0px 1px 0px 0px solid black;
+    border: none;
+    background-color: rgb(255, 0, 93);;
+    border-left: 0.5px solid pink;
+    cursor:pointer;
+}
+.search-bar svg{
+    margin-left:12px;
+    color:white;
+}
+.search-bar button:hover{
+    background-color: rgb(255, 0, 38);
+}
+/*for photo
+    border-radius: 50%;
+    border: 7px solid rgba(128, 128, 128, 0.506); 
+    border: none;
+    width: 93px;
+    height: 99px;
+    margin: 5px 0px -13px 0px;
+
+*/

@@ -1,0 +1,136 @@
+button#Teacher {
+    background: rgb(46, 46, 129);
+    color: white;
+}
+.teacher-form{
+    margin-left: 210px;
+    box-sizing: border-box;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.1);
+    width: 1252px;
+    background-color: #f5f5f5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.search_by{
+    width:100%;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+}
+.search_by input{
+    padding: 7px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+#start_search {
+    margin-top: 20px;
+    padding-inline: 15px;
+    padding-block: 5px;
+    width: 30%;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#start_search:hover {
+    background-color: #0056b3;
+}
+
+/* Container for search results */
+.search_reasult {
+    margin-left: 210px;
+    width: 1256px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+
+}
+
+/* Table styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+/* Table header styling */
+thead tr {
+    color: #000;
+    text-align: left;
+    border-bottom:1px solid #201f1f;
+}
+
+/* Table header cells */
+thead th {
+    padding: 10px;
+}
+
+/* Table body rows */
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* Table body cells */
+td {
+    padding: 10px;
+    vertical-align: middle;
+}
+
+/* Image styling within table */
+td img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+/* Button styling */
+.edit-button,.delete-button,.details-button {
+    padding: 5px 10px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.details-button {
+    background-color: #28a745;
+}
+
+.details-button:hover {
+    background-color: #218838;
+}
+
+/* Additional button styling for different actions */
+.edit-button {
+    background-color: #ff9307;
+}
+
+.edit-button:hover {
+    background-color: #cc9a06;
+}
+
+.delete-button {
+    background-color: #DC3545;
+}
+
+.delete-button:hover {
+    background-color: #a71d2a;
+}
+
+#no_result_case {
+    color: #dc3545;
+    text-align: center;
+    margin-top: 20px;
+}

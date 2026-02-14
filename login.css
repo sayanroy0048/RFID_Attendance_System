@@ -1,0 +1,157 @@
+body{
+    background:url(login_page_photo.jpg) ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+.login-container{
+    /* border: 5px solid green; */
+    height:100%;
+    width:100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.image{
+    background: url(Admin2.png);
+    height:90px;
+    width:90px;
+    border-radius: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    top:-39px;
+    left:156px;
+
+}
+.login-heading{
+    
+    font-size:30px;
+    display:flex;
+    justify-content: center;
+    min-height: 0px;
+    margin-bottom:10px;
+}
+.login-form{
+    /* border: 5px solid red; */
+    display: flex;
+    background-color: white;
+    flex-direction: row;
+    /* opacity:0.3; */
+    justify-content: space-between;
+    min-height:0px;
+    width:450px;
+    box-shadow: 3px 4px 13px 0px;
+
+}
+.label-input{
+    margin-left:24px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.label-input input{
+    height:36px;
+    width:390px;
+    padding-left:8px;
+    border:1px solid rgb(1, 62, 232);
+    margin-top:5px;
+    font-size:15px;
+}
+
+.label-input label{
+    font-size: 20px;
+}
+.Login{
+    height:39px;
+    border-radius: 3px;
+    border: none;
+    width:390px;
+    margin-left:24px;
+    background-color:rgb(1, 62, 232);
+    font-weight: bold;
+    color:white;
+    font-size: 18px;
+    margin-top:10px;
+}
+.Login:hover{
+    cursor: pointer;
+    background-color:rgb(36, 6, 156) ;
+}
+.successful-massage{
+    position:absolute;
+    min-height:410px;
+    width:500px;
+    /* border: 5px solid red; */
+    animation : moving;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    background:white;
+    box-shadow: 3px 4px 13px 0px;
+
+}
+@keyframes moving{
+    from{
+        top:-300px;
+        left:510px;
+    }
+    to{
+        top:180px;
+        left:510px;
+    }
+}
+.icon{
+    margin-top: 50px;
+    min-height:0px;
+    width:500px;
+    /* border:1px solid black; */
+    display:flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+.icon img{
+    height:140px;
+    width: 140px;
+}
+.Thank-you{
+    font-weight: bolder;
+    font-size:35px;
+    min-height: 0px;
+    width:500px;
+    display: flex;
+    justify-content: center;
+    /* border:1px solid black; */
+    margin-bottom: 18px;
+}
+.successfuly-login{
+    min-height: 0px;
+    width:500px;
+    display: flex;
+    justify-content: center;
+    /* border: 1ps solid black; */
+    margin-bottom: 20px;
+}
+.div-button{
+    display: flex;
+    justify-content: center;
+    width:500px;
+}
+.successful-button{
+    height:40px;
+    width:120px;
+    color:white;
+    background-color: rgb(30, 205, 11);
+    border:none;
+    font-size: 15px;
+    cursor: pointer;
+}
+.failed-login{
+    height:40px;
+    width:120px;
+    color:white;
+    background-color: rgb(200, 6, 6);
+    border:none;
+    cursor: pointer;
+    font-size: 15px;
+}

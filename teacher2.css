@@ -1,0 +1,117 @@
+/* teacher.css */
+#Teacher{
+    background: rgb(46, 46, 129);
+    color:white;
+}
+.teacher_add_update {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    box-sizing: border-box;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form div {
+    margin-bottom: 15px;
+}
+
+label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+/* select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+} */
+
+input[type="text"],
+input[type="email"],
+input[type="file"],
+input[list],
+button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="file"]:focus,
+input[list]:focus,
+button:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+button {
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+span {
+    color: red;
+    font-size: 12px;
+    font-weight: bold;
+    display: block;
+    margin-top: 5px;
+}
+
+/* #invalid_name,
+#invalid_id,
+#invalid_Pno,
+#invalid_email {
+    visibility: hidden;
+} */
+
+/* .fullname {
+    display: flex;
+    justify-content: space-between;
+}
+
+.fullname input {
+    width: 30%;
+} */
+
+@media (max-width: 500px) {
+    .fullname {
+        flex-direction: column;
+    }
+
+    .fullname input {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}

@@ -1,0 +1,90 @@
+.attendence_date_input_field {
+    margin: 20px;
+}
+
+.attendence_date_input_field form {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+#attendence_date {
+    padding: 5px;
+    font-size: 14px;
+}
+
+#search {
+    padding: 5px 10px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.export {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.Export-button {
+    padding: 5px 10px;
+    font-size: 14px;
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 3px;
+}
+
+.box-st-attendence-st {
+    margin-left: 209px;
+    margin-top: 20px;
+}
+
+table{
+    width: calc(100% - 120px); /* Adjusting table width to fit within the margin */
+    margin: 20px;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table th, table td {
+    padding: 10px;
+    text-align: left;
+}
+table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+table th {
+    background-color: #f2f2f2;
+}
+table td img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.details-button,.delete-button {
+    padding: 5px 10px;
+    font-size: 14px;
+    cursor: pointer;
+    color: white;
+    border: none;
+    border-radius: 3px;
+}
+.delete-button {
+    background-color: #DC3545;
+}
+
+.delete-button:hover {
+    background-color: #a71d2a;
+}
+.details-button{
+    background-color: #008CBA;
+}
+.details-button{
+    background-color: #02b1eb;
+}
+#no_result_case {
+    margin-left: 209px;
+    color: red;
+}
